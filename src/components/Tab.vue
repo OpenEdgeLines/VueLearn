@@ -1,9 +1,9 @@
 <template>
-  <RouterLink
-      class="link"
-      v-for="link in links"
-      :to="`${ link.path }`"
-      :key="link.id"
+  <RouterLink 
+    class="link" 
+    v-for="link in links" 
+    :to="`${ link.path }`" 
+    :key="link.id" 
   >
     {{ link.name }}
   </RouterLink>
